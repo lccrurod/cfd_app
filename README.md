@@ -80,4 +80,8 @@ Also was life saving this [documentation](https://plotly.com/javascript/) from t
 
 This [paper](http://worldcomp-proceedings.com/proc/p2012/ICA4753.pdf) published by members of the Institute of Artificial Intelligence from the University of Georgia was part of the motivation for chosing this kind of project and served as a guide for the features to be used later in the modeling process.
 
+The ease of use and setup for the [Alpha Vantage API](https://www.alphavantage.co/documentation/) made the data processing step pass like a breeze!
+
 Finally for setting my local CMD for running the flask app and succesfully excecute the web app I refered to the  [quickstart documentation](https://flask.palletsprojects.com/en/2.0.x/quickstart/, "flask-doc") from the Flask team.
+
+
