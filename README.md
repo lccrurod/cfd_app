@@ -71,6 +71,11 @@ From the app directory run
 
 ![Second screenshot](https://github.com/lccrurod/cfd_app/blob/main/web_app_ss2.PNG)
 
+## Conclusions.
+
+After a thorough modeling process, the classification results may not seem impresive, below 60% accuracy, but the performance from the regression of the extreme values is nothing to shy about, and from an user/investor perspective this could yield the most effective, as it is more important to grasp extreme losses and gains rather that the position of gain or loss at exactly 3 months. Also this outputs could be used in a revised classification algorithm as input features.
+
+As an opportunity for improvement, maybe defining a maximal relative loss on the buyer position during a certain period could be a more reasonable objective variable to try to predict and a real investor would not probably close a position at exactly three months if he finds a decently favorable position before.
 
 ## Acknowlegments
 
