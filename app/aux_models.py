@@ -85,7 +85,7 @@ def save_pred_data(symbol):
 
     for freq in ['daily', 'weekly', 'monthly']:
         try:
-            df = pd.read_sql_table(stock_symbol + '_' + freq+'_to_predict', engine)
+            df = pd.read_sql_table(symbol + '_' + freq+'_to_predict', engine)
             df = df[df['day_request']==day_request]
             if df.shape[0] > 0:
                 print('.. Data already have been requested {}..'.format(day_request))
